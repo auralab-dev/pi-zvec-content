@@ -1,0 +1,25 @@
+{
+  "name": "pi-zvec-content",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Bounded zvec-grep content search for Pi.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@zvec/zvec-grep": "^0.2.1",
+    "typebox": "^1.1.38"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
