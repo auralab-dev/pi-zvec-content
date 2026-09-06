@@ -27,7 +27,12 @@ Behavior:
 }
 ```
 
-Requires Node.js 22.19+ and `pnpm install` at the harness root.
+Requires Node.js 22.19+ and pnpm 11. Standalone install in this split repo:
+
+```bash
+pnpm install
+pnpm typecheck
+```
 
 ## Runtime mode
 
